@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+ int main()
+ {
+	 float score;
+	 cout << "Enter your score : ";
+	 cin >> score;
+	 cout << "====================\n";
+	 if ( score > 89 && score < 101 )
+		 cout << "Your score is : A\n";
+	 else if ( score > 79 && score < 90 )
+		 cout << "Your score is : B\n";
+	 else if ( score > 69 && score < 80 )
+		 cout << "Your score is : C\n";
+	 else if ( score > 59 && score < 70 )
+		 cout << "Your score is : D\n";
+	 else if ( score >= 0 && score < 60 )
+		 cout << "Your score is : F\n";
+	 else 		 		   
+		 cout << "Error"; 
+	return(0);
+ 
+ 
+ 
+ 
+ }
